@@ -10,7 +10,7 @@ public class Auto {
 
     int cantidadAsientos(){
         int a = 0;
-        for(int i = 0; i <= this.asientos.length; i++){
+        for(int i = 0; i < this.asientos.length; i++){
             if(this.asientos[i] != null){
                 a++;
             }
@@ -22,7 +22,7 @@ public class Auto {
         boolean f = false;
         if(this.registro == this.motor.registro){
             f = true;
-            for(int i = 0; i <= this.asientos.length; i++){
+            for(int i = 0; i < this.asientos.length; i++){
                 if(this.asientos[i] != null){
                     if(this.asientos[i].registro != this.registro){
                         f = false;
