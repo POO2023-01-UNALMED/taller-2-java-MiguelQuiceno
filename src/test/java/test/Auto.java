@@ -24,7 +24,7 @@ public class Auto {
             f = true;
             for(int i = 0; i <= this.asientos.length; i++){
                 if(this.asientos[i] != null){
-                    if(this.asientos[i] != this.registro){
+                    if(this.asientos[i].registro != this.registro){
                         f = false;
                     }
                 }
