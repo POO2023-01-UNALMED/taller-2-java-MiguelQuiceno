@@ -9,7 +9,7 @@ public class Auto {
     static int cantidadCreados;
 
     int cantidadAsientos(){
-        int a = 0
+        int a = 0;
         for(int i = 0; i <= this.asientos.length; i++){
             if(this.asientos[i] != null){
                 a++;
